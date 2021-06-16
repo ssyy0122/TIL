@@ -1,0 +1,48 @@
+//
+//  ViewController.swift
+//  study2
+//
+//  Created by GSM03 on 2021/06/16.
+//
+
+import UIKit
+
+class ViewController: UIViewController {
+
+    @IBOutlet weak var red: UIButton!
+    @IBOutlet weak var Orange: UIButton!
+    @IBOutlet weak var blue: UIButton!
+    let myStoryBoard : UIStoryboard = UIStoryboard(name: "Main",bundle: nil)
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        //굴곡률
+        Orange.layer.cornerRadius = 17
+                //두ㄲ에
+        Orange.layer.borderWidth = 3
+                //색ㄲㄱ깔
+        Orange.layer.borderColor = UIColor.orange.cgColor
+        red.layer.cornerRadius = 17
+        red.layer.borderWidth = 3
+        red.layer.borderColor = UIColor.red.cgColor
+        blue.layer.cornerRadius = 17
+        blue.layer.borderWidth = 3
+        blue.layer.borderColor = UIColor.blue.cgColor
+        
+    }
+
+    
+    @IBAction func bluebtn(_ sender: Any) {
+        let aController = myStoryBoard.instantiateViewController(withIdentifier:"Blue")
+             self.show(aController,sender: self)
+    }
+    @IBAction func redbtn(_ sender: Any) {
+        let aController = myStoryBoard.instantiateViewController(withIdentifier:"Red")
+             self.show(aController,sender: self)
+    }
+    @IBAction func Orangebtn(_ sender: Any){
+        let aController = myStoryBoard.instantiateViewController(withIdentifier:"Orange")
+             self.show(aController,sender: self)
+    }
+    
+}
+
