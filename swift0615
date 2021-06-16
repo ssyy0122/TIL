@@ -1,0 +1,26 @@
+//
+//  ViewController.swift
+//  study
+//
+//  Created by GSM03 on 2021/06/16.
+//
+
+import UIKit
+
+class ViewController: UIViewController {
+    
+    @IBOutlet weak var btn_a: UIButton!
+    let myStoryBoard : UIStoryboard = UIStoryboard(name: "Main",bundle: nil)
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+    }
+    @IBAction func onClick_a(_ sender: Any)
+    {
+    let aController = myStoryBoard.instantiateViewController(withIdentifier:"AController")
+        self.show(aController,sender: self)
+    }
+
+}
+
