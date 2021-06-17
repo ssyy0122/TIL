@@ -1,0 +1,39 @@
+//
+//  ViewController.swift
+//  modalview
+//
+//  Created by GSM03 on 2021/06/17.
+//
+
+import UIKit
+
+class ViewController: UIViewController {
+ 
+    @IBOutlet weak var modalview: UIView!
+    @IBOutlet weak var namelabel: UILabel!
+    @IBOutlet weak var nametextfilld: UITextField!
+    @IBOutlet weak var change: UIButton!
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        modalview.isHidden = true
+       
+    }
+
+    @IBAction func modalbtn(_ sender: Any) {
+        modalview.isHidden = true
+        namelabel.text = nametextfilld.text
+        
+    }
+    
+    @IBAction func btn(_ sender: Any) {
+        modalview.isHidden = false
+        UIView.animate(withDuration :1.5 ){
+            self.modalview.center = CGPoint(x:100, y:300)
+        }
+    }
+    
+    @IBAction func changebtn(_ sender: Any) {
+        
+    }
+}
+
