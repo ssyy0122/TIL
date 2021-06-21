@@ -1,0 +1,19 @@
+from os import listdir ,makedirs#라이브러리
+from shutil import copyfile#라이브러리리리
+from os.path import isdir#라이브러리리리리
+
+origin_dir = "C:\\Users\\user\\Documents\\0621\\scan"#처음파일경로
+out_dir = "C:\\Users\\user\\Documents\\0621\\out"#파일을 복사할 위치
+file_list = listdir(origin_dir)#파일 리스트를 생성하는 역할
+
+
+for file_name in file_list:#file_name이 리스트에 다돌리는거
+    year = file_name[:4]#연도를추출
+    month = file_name[4:6]#달 추출
+    day = file_name[6:8]#일을 추출함
+
+    target_dir = out_dir + "\\" + year + "\\" + month + "\\" + day#파일경로
+    if not isdir (target_dir):#파
+        makedirs(target_dir)#파일을 만드는역할
+
+        copyfile(origin_dir + "\\" + file_name ,target_dir +"\\" + file_name )#파일을 복사
