@@ -1,0 +1,46 @@
+//
+//  ViewController.swift
+//  0621
+//
+//  Created by GSM03 on 2021/06/21.
+//
+
+
+import UIKit
+
+class ViewController: UIViewController {
+    var isblack:Bool = false
+    
+
+    @IBOutlet weak var ckk: UIButton!
+    @IBOutlet weak var ck: UIButton!
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+
+    @IBAction func ckk1(_ sender: Any) {
+        if isblack == false{
+            ckk.backgroundColor = .black
+            isblack = true
+            
+        }else{
+            ckk.backgroundColor = .white
+            isblack = false
+            
+            
+        }
+        
+    }
+    @IBAction func ck1(_ sender: Any) {
+        if isblack == false{
+            ckk.backgroundColor = .black
+            isblack = true
+            
+        }else{
+            ckk.backgroundColor = .white
+            isblack = false
+        
+    }
+}
+
+}
