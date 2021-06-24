@@ -1,0 +1,50 @@
+//
+//  ViewController.swift
+//  buttondelete
+//
+//  Created by GSM03 on 2021/06/24.
+//
+
+import UIKit
+
+class ViewController: UIViewController {
+    var bb: Bool = true
+    @IBOutlet weak var xbtn: UIButton!
+    @IBOutlet weak var lb: UILabel!
+    @IBOutlet weak var vv: UIView!
+    @IBOutlet weak var btn: UIButton!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        vv.isHidden = false
+        lb.layer.borderWidth = 0.5
+        lb.layer.borderColor = UIColor.gray.cgColor
+        lb.layer.cornerRadius = 30
+        btn.layer.cornerRadius = 30
+        
+    }
+    
+    
+    
+    
+    @IBAction func xxbtn(_ sender: Any) {
+        if vv.isHidden == false{
+            vv.isHidden = true
+        }
+    }
+    @IBAction func btn1(_ sender: Any) {
+        if bb == true{
+            btn.backgroundColor = .white
+            btn.layer.borderWidth = 0.5
+            btn.layer.borderColor = UIColor.green.cgColor
+            bb = false
+        } else {
+            btn.backgroundColor = .red
+            btn.layer.borderWidth = 0.5
+            btn.layer.borderColor = UIColor.green.cgColor
+            bb = true
+        }
+    }
+    
+}
+
