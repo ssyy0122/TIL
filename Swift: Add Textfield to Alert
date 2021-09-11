@@ -1,0 +1,66 @@
+//
+//  ViewController.swift
+//  otp
+//
+//  Created by GSM03 on 2021/09/11.
+//
+
+import UIKit
+
+class ViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        let btn = UIButton(frame: CGRect(x: 0, y: 0, width: 200, height: 50))
+        view.addSubview(btn)
+        btn.backgroundColor = .systemBlue
+        btn.setTitle("Show Alert", for: .normal)
+        btn.center = view.center
+        btn.setTitleColor(.white, for: .normal)
+        btn.addTarget(self, action: #selector(showAlert), for: .touchUpInside)
+    
+    }
+    @objc private func showAlert(){
+         let alert =  UIAlertController(
+            title: "Sign In Apple ID",
+            message: "Pleaes sign in to your account to countinue",
+            preferredStyle: .alert
+         )
+        //Add fields
+        alert.addTextField { field in
+            field.placeholder = "Email address"
+            field.returnKeyType = .continue
+            field.isSecureTextEntry = true
+        }
+        alert.addTextField { field in
+            field.placeholder = "Password"
+            field.returnKeyType = .next
+            field.keyboardType = .emailAddress
+        }
+        
+        alert.addAction(UIAlertAction(title: "Cancle", style: .cancel, handler: nil))
+        alert.addAction(UIAlertAction(title: "continue", style: .default, handler: { _ in
+        guard let fields = alert.textFields, fields.count == 2 else{
+            return
+        }
+            let emailField = fields[0]
+            let passwotdFiled = fields[1]
+            guard let email = emailField.text, !email.isEmpty,
+                  let password = passwotdFiled.text, !password.isEmpty else{
+                print(" Invaild entries")
+                return
+            }
+            print("Email: \(email)")
+            print("Password: \(password)")
+            
+            
+            
+    }))
+        
+        present(alert, animated: true)
+    }
+
+
+}
+
