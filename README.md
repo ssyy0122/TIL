@@ -13,3 +13,4 @@
    - [클라이언트와서버](https://github.com/ssyy0122/TIL/blob/master/IT%EC%9A%A9%EC%96%B4/%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8%EC%99%80%EC%84%9C%EB%B2%84.md)
    - [데이터베이스](https://github.com/ssyy0122/TIL/blob/master/IT%EC%9A%A9%EC%96%B4/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4.md)
    - [OSI7계층](https://github.com/ssyy0122/TIL/blob/master/IT%EC%9A%A9%EC%96%B4/OSI7%EA%B3%84%EC%B8%B5.md)
+   - [JSON이란?](https://github.com/ssyy0122/TIL/blob/master/IT%EC%9A%A9%EC%96%B4/JSON%EC%9D%B4%EB%9E%80%3F.md)
