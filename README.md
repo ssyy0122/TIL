@@ -1,10 +1,5 @@
 # 😧😧
-* Leture
-   - [열거형이란?](https://github.com/ssyy0122/TIL/blob/master/Swift/type_casting.md)
-   - [타입캐스팅이란?](https://github.com/ssyy0122/TIL/blob/master/Swift/%EC%97%B4%EA%B1%B0%ED%98%95(enum).md)
-* RxSwift
-   - [RxSwift란?](https://github.com/ssyy0122/TIL/blob/master/Swift/Rxswift_basic.md)
-
+  
 * 애자일
    - [스크럼](https://github.com/ssyy0122/TIL/blob/master/Agile/%EC%8A%A4%ED%81%AC%EB%9F%BC%EC%9D%98%20%EC%9A%A9%EC%96%B4%EB%93%A4%EA%B3%BC%20%EC%A0%95%EC%9D%98.md)
 * IT용어
@@ -16,3 +11,12 @@
    - [JSON이란?](https://github.com/ssyy0122/TIL/blob/master/IT%EC%9A%A9%EC%96%B4/JSON%EC%9D%B4%EB%9E%80%3F.md)
    - [IoC,DI](https://github.com/ssyy0122/TIL/blob/master/IT%EC%9A%A9%EC%96%B4/IoC%2CDI.md)
    - [OOP](https://github.com/ssyy0122/TIL/blob/master/IT%EC%9A%A9%EC%96%B4/OOP.md)
+  * JAVA
+   - [생성자](https://github.com/ssyy0122/TIL/blob/master/JAVA/%EC%83%9D%EC%84%B1%EC%9E%90.md)
+  
+  
+  
+  
+  - [열거형이란?](https://github.com/ssyy0122/TIL/blob/master/Swift/type_casting.md)
+   - [타입캐스팅이란?](https://github.com/ssyy0122/TIL/blob/master/Swift/%EC%97%B4%EA%B1%B0%ED%98%95(enum).md)
+   - [RxSwift란?](https://github.com/ssyy0122/TIL/blob/master/Swift/Rxswift_basic.md)
