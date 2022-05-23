@@ -12,7 +12,7 @@
    - [IoC,DI](https://github.com/ssyy0122/TIL/blob/master/IT%EC%9A%A9%EC%96%B4/IoC%2CDI.md)
    - [OOP](https://github.com/ssyy0122/TIL/blob/master/IT%EC%9A%A9%EC%96%B4/OOP.md)
  * JAVA
-   - [JAVA란(1)?](https://github.com/ssyy0122/TIL/blob/master/JAVA/JAVA.md)
+   - [JAVA란?(1)](https://github.com/ssyy0122/TIL/blob/master/JAVA/JAVA.md)
    - [JAVA(2)구성요소와 기초](https://github.com/ssyy0122/TIL/blob/master/JAVA/JAVA(2)%EA%B5%AC%EC%84%B1%EC%9A%94%EC%86%8C%EC%99%80%20%EA%B8%B0%EC%B4%88.md)
    - [JAVA(3)조건문,반복문](https://github.com/ssyy0122/TIL/blob/master/JAVA/JAVA(3)%EC%A1%B0%EA%B1%B4%EB%AC%B8%2C%EB%B0%98%EB%B3%B5%EB%AC%B8.md)
    - [JAVA(4)배열](https://github.com/ssyy0122/TIL/blob/master/JAVA/JAVA(4)%EB%B0%B0%EC%97%B4.md)
