@@ -36,24 +36,40 @@ Class M416 extends Gun {
 오버라이딩을 통해 객체지향의 특징중 하나인 다형성 구현이 가능하다.
 
 ```java
-//메서드의 오버라이딩을 통해 서로다른 동작을 가능하게 한다
-class Pet {
-    void bark() {
-        System.out.println("pipi");
-    }
+class Parent {
+
+    void display() { System.out.println("부모 클래스의 display() 메소드입니다."); }
+
 }
 
-class Dog extends Pet {
-    void bark() {
-        System.out.println("woof woof");
-    }
+class Child extends Parent {
+
+    void display() { System.out.println("자식 클래스의 display() 메소드입니다."); }
+
 }
 
-class Cat extends Pet {
-        void bark() {
-        System.out.println("mew mew");
+ 
+
+public class Inheritance05 {
+
+    public static void main(String[] args) {
+
+        Parent pa = new Parent();
+
+        pa.display();
+
+        Child ch = new Child();
+
+        ch.display();
+
+        Parent pc = new Child();
+
+        pc.display(); // Child cp = new Parent();
+
     }
+
 }
+//부모클래스인 Parent에 display메소드를 자식클래스인 child에서 오버라이딩을해서 사용하는 예제
 
 ```
 
