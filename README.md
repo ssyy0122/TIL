@@ -24,6 +24,7 @@
    - [서블릿](https://github.com/ssyy0122/TIL/blob/master/JAVA/%EC%84%9C%EB%B8%94%EB%A6%BF(servlet).md)
  * Spring
    - [Spring이란?](https://github.com/ssyy0122/TIL/blob/master/Spring/Spring%EC%9D%B4%EB%9E%80%3F.md)
+   - [DI](https://github.com/ssyy0122/TIL/blob/master/Spring/DI.md)
  * DesignPattern
    - [Singleton](https://github.com/ssyy0122/TIL/blob/master/DesignPattern/Singleton.md)
   
