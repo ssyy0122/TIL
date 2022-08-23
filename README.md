@@ -29,8 +29,5 @@
  * DesignPattern
    - [Singleton](https://github.com/ssyy0122/TIL/blob/master/DesignPattern/Singleton.md)
   
-  
-  
-  - [열거형이란??](https://github.com/ssyy0122/TIL/blob/master/Swift/type_casting.md)
-   - [타입캐스팅이란?](https://github.com/ssyy0122/TIL/blob/master/Swift/%EC%97%B4%EA%B1%B0%ED%98%95(enum).md)
-   - [RxSwift란?](https://github.com/ssyy0122/TIL/blob/master/Swift/Rxswift_basic.md)
+ * 궁금증풀기
+   - [Service와ServiceImpl 관습적인 추상화](https://github.com/ssyy0122/TIL/blob/master/%EA%B6%81%EA%B8%88%EC%A6%9D%ED%92%80%EA%B8%B0/Service%EC%99%80ServiceImpl(%EA%B4%80%EC%8A%B5%EC%A0%81%EC%9D%B8%20%EC%B6%94%EC%83%81%ED%99%94).md)
