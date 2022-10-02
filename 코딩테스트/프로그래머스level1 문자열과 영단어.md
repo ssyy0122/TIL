@@ -1,3 +1,4 @@
+```java
 class Solution {
     public int solution(String s) {
         String words[] = {"zero","one","two","three","four","five","six","seven","eight","nine"};
@@ -10,3 +11,4 @@ class Solution {
         return Integer.parseInt(s);
     }
 }
+```
