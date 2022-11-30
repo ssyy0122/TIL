@@ -22,6 +22,7 @@
    - [어노테이션](https://github.com/ssyy0122/TIL/blob/master/JAVA/%EC%96%B4%EB%85%B8%ED%85%8C%EC%9D%B4%EC%85%98.md)
    - [리플렉션](https://github.com/ssyy0122/TIL/blob/master/JAVA/%EB%A6%AC%ED%94%8C%EB%A0%89%EC%85%98(Reflection).md)
    - [서블릿](https://github.com/ssyy0122/TIL/blob/master/JAVA/%EC%84%9C%EB%B8%94%EB%A6%BF(servlet).md)
+   - [JVM1-1 동작원리](https://github.com/ssyy0122/TIL/blob/master/JAVA/JVM%201-1%20,(%EA%B5%AC%EC%84%B1%EC%9A%94%EC%86%8C).md)
  * Spring/JPA
    - [Spring이란?](https://github.com/ssyy0122/TIL/blob/master/Spring/Spring%EC%9D%B4%EB%9E%80%3F.md)
    - [DI](https://github.com/ssyy0122/TIL/blob/master/Spring/DI.md)
